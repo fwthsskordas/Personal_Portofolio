@@ -4,9 +4,9 @@
             <span class="font-mono tracking-wider text-lg">Fotis Skordas</span>
         </div>
         <div> 
-            <ul class="flex flex-row gap-7 tracking-wider"> 
+            <ul class="flex flex-row gap-6 tracking-wider "> 
                 <li v-for="link in Links">
-                    <a :href="link.link" class="hover:cursor-pointer hover:text-orange-600 text-lg">
+                    <a :href="link.link" class="hover:cursor-pointer text-sm hover:text-orange-600 ">
                         {{ link.name }}
                     </a>
                 </li>
@@ -18,11 +18,11 @@
 <script setup>
 
 let Links = [
-    {name: "Home", link: "/"},
-    {name: "About", link: "/about"},
-    {name: "Projects", link: "/projects"},
-    {name: "Skills", link: "/skills"},
-    {name: "Contact", link: "/contact"}
+    {name: "01. Home", link: "/"},
+    {name: "02. About", link: "/about"},
+    {name: "03. Projects", link: "/projects"},
+    {name: "04 .Skills", link: "/skills"},
+    {name: "05. Contact", link: "/contact"}
 ]
 </script>
 
