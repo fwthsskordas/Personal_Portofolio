@@ -8,7 +8,7 @@ export default {
     extend: {
       screens: {
         'ls': '200px',
-        // => @media (min-width: 400px) { ... }
+        // => @media (min-width: 200px) { ... }
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
   
