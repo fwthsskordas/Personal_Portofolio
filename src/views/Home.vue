@@ -10,7 +10,7 @@
         <h2 class="lg:text-5xl ls:text-3xl sm:text-3xl">Fotis Skordas,</h2>
       </div>
       <div class="fade-in-from-left">
-        <h3 class="text-1xl opacity-60 ml-1">
+        <h3 class="text-1xl opacity-60 ml-1 sm:text-sm">
           I'm a dedicated 25-year-old professional, proficient in the realms of
           3D design and front-end development. Merging artistic vision with
           technical expertise. With a commitment to

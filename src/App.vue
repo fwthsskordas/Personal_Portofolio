@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
 </script>
 
 <template>
-  <div class="bg-slate-800 h-screen w-screen overflow-hidden">
+  <div class="bg-slate-800 h-screen w-screen overflow-auto fixed">
     <Navbar />
     <RouterView />
     <div class="loader"></div>

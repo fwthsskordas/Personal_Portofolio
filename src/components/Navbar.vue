@@ -1,14 +1,14 @@
 <template>
   <div class="bg-slate-800 text-white py-3 px-6 shadow-xl font-mono">
     <nav
-      class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center "
+      class="container px-4 py-4 mx-auto md:flex md:justify-between md:items-center "
     >
       <div class="flex items-center justify-between">
-        <span class="font-mono tracking-wider md:text-lg ls:text-sm "
+        <span class="font-mono tracking-wider md:text-lg ls:text-sm"
           >Fotis Skordas</span
         >
         <!-- Mobile menu button -->
-        <div @click="toggleNav" class="md:hidden ">
+        <div @click="toggleNav" class="md:hidden">
           <button
             type="button"
             class="text-gray-100 hover:text-gray-400 focus:outline-none focus:text-gray-400 ls:float-right"
@@ -22,7 +22,7 @@
           </button>
         </div>
       </div>
-      <ul :class="showMenu ? 'flex' : 'hidden'"
+      <ul :class="showMenu ? 'flex ' : 'hidden'"
         class="flex-col
           mt-8
           space-y-2
@@ -47,10 +47,10 @@ let showMenu = ref(false);
 
 let Links = [
   { name: "01.Home", link: "/" },
-  { name: "02.About", link: "/about" },
-  { name: "03.Projects", link: "/projects" },
-  { name: "04.Skills", link: "/skills" },
-  { name: "05.Contact", link: "/contact" },
+//   { name: "02.About", link: "/about" },
+  { name: "02.Projects", link: "/projects" },
+//   { name: "04.Skills", link: "/skills" },
+  { name: "03.Contact", link: "/contact" },
 ];
 
 const toggleNav = () => (showMenu.value = !showMenu.value);
