@@ -16,12 +16,10 @@ window.addEventListener("load", () => {
     <RouterView />
     <div class="loader"></div>
   </div>
-
 </template>
 
 <style scoped>
-
-.loader{
+.loader {
   position: fixed;
   top: 0;
   left: 0;
@@ -31,7 +29,7 @@ window.addEventListener("load", () => {
   justify-content: center;
   align-items: center;
   background-color: rgb(65, 75, 110);
-  
+
   transition: opacity 0.75s, visibility 0.75s;
 }
 
@@ -50,7 +48,7 @@ window.addEventListener("load", () => {
   animation: loading 0.5s ease infinite;
 }
 
-@keyframes loading{
+@keyframes loading {
   from {
     transform: rotate(0turn);
   }
