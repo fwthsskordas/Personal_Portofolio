@@ -1,11 +1,11 @@
 <script setup>
-import ProjectCard from '../components/ProjectCard.vue';
+import ProjectCardEshop from '../components/ProjectCardEshop.vue';
 
 
 </script>
 
 <template>
-    <ProjectCard />
+    <ProjectCardEshop />
 </template>
 
 
