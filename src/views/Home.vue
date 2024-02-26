@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center flex-row font-mono h-5/6 w-ful ml-14 mr-14
+  <div class="flex justify-between items-center flex-row font-mono h-5/6 w-5/6 ml-14 mr-14
   xl:flex-row xl:justify-between xl:items-center xl:gap-0
   lg:flex-row lg:justify-between lg:items-center lg:gap-0
   md:flex-row md:justify-between md:items-center md:gap-0
@@ -23,8 +23,8 @@
         </h3>
       </div>
     </div>
-    <div class="mb-0 ml-40 flex items-center flex-col justify-between border border-solid border-teal-500 shadow-sm rounded-md p-2
-      xl:flex-col xl:gap-4 xl:mr-0 
+    <div class="flex items-center flex-col justify-between border border-solid border-teal-500 shadow-sm rounded-md p-2
+      xl:flex-col xl:gap-4 xl:mr-0 ml-9 
       lg:flex-col lg:gap-4 lg:mr-0 
       md:flex-col md:gap-4 md:mr-0 
       sm:flex-col sm:gap-4 sm:mr-0 
@@ -49,11 +49,15 @@
             d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
         </svg></a>
     </div>
-    
+  </div>
+  <div>
+    <!-- <SkillHolder/> -->
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import SkillHolder from '../components/SkillHolder.vue';
+</script>
 
 <style scoped>
 @keyframes fadeInFromRight {
