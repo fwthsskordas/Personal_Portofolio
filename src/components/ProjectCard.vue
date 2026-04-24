@@ -58,7 +58,7 @@ defineProps<{
 .image-wrap {
   position: relative;
   width: 100%;
-  height: 120px;
+  height: 160px;
   overflow: hidden;
 }
 
